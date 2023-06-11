@@ -1,0 +1,118 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(42, 249, 177, 0.05);
+}
+.logo { 
+    padding: 1%;
+    text-align:left;
+    display: flex;
+    align-items: center;
+}
+.inline-block {
+    display: inline-block; 
+        vertical-align:top; 
+}
+nav ul li { 
+    background: rgba(42, 249, 177, 0.05);
+    list-style-type: none;
+    padding-right:50%;
+}
+.activenav {
+    border-bottom: 2px solid #F22283;
+}
+p {
+    text-align: center; 
+    color:black;
+}
+
+nav ul, footer ul{width:50%;
+    display:flex;
+}
+.heroImg {
+    padding:25px;
+    background-image: url(../images/Hero.png);
+    background-repeat:no-repeat;
+    height:600px;
+}
+.heroImg2 {
+    padding:25px;
+    background-image: url(../images/Hero2.png);
+    background-repeat:no-repeat;
+    height:600px;
+}
+.content {
+    width:500px;
+    text-align:center;
+    margin:0 auto; 
+    background: rgba(248, 247, 242, 0.73);
+    border-radius: 20px;
+    padding:20px;
+}
+footer ul li { 
+    list-style-type: none;
+    padding-right:20px;
+}
+.flex-container {
+    display: flex;
+    width:30%;
+    margin: 1px;
+    padding-left: 10px; 
+}
+.gridcontainer {
+    display: grid;
+  
+    grid-template-rows:250px 250px 250px;
+    grid-template-columns: auto;
+    column-gap: 50px;
+    row-gap: 50px; 
+    grid-template-areas:
+    'myarea1'
+    'myarea2'
+    'myarea3';
+}
+.myarea1 {
+    grid-area: myarea1;
+    display:flex;
+}
+.myarea2 {
+    grid-area: myarea2;
+    display:flex;
+}
+.myarea3 {
+    grid-area: myarea3;
+    display:flex;
+}
+
+footer {
+    background: rgba(42, 249, 177, 0.05);
+    border: 2px solid #F22283;
+}
+
+
+.scrollTop {
+    position: fixed;
+    right: 10%;
+    bottom: 10px;
+    background-color: #BE3F48;
+    padding: 20px;
+    opacity: 0;
+    transition: all 0.4s ease-in-out 0s;
+  }
+  
+  .scrollTop a {
+    font-size: 18px;
+    color: #fff;
+  }
+  .jumbotron {
+    background-color: #FFF;
+    height:400px;
+    width: 100%; 
+  }
+  body {
+    margin: auto;
+  }
+@media only screen and (max-width: 600px){
+    
+}
